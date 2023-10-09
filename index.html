@@ -8,6 +8,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/app.css">
 
@@ -16,34 +19,283 @@
 <body>
     <section class="section">
         <div class="container-fluid">
-          <nav class="navbar navbar-expand-lg navbar-light bg-light flex-column flex-md-row justify-content-center text-center row-fluid">
-            <a class="navbar-brand mr-auto" href="#">
-              <img src="img/IHOP-Logo 1.svg" alt="Logotipo">
-            </a>
-      
-            <ul class="nav navbar-nav mx-auto">
-              <li class="nav-item">
-                <a class="nav-link me-5 fs-4 text-dark" href="#">Menú</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link me-5 fs-4 text-dark" href="#">Sucursales</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link me-5 fs-4 text-dark" href="#">Contactos</a>
-              </li>
-            </ul>
-          </nav>
+            <nav
+                class="navbar navbar-expand-lg navbar-light bg-light flex-column flex-md-row justify-content-center text-center row-fluid">
+                <a class="navbar-brand mr-auto" href="#">
+                    <img class="img1" src="img/logo-ihop-mexico.svg" alt="Logotipo">
+                </a>
+
+                <ul class="nav navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link me-5 fs-4 text-dark" href="#">Menú</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link me-5 fs-4 text-dark" href="#">Sucursales</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link me-5 fs-4 text-dark" href="#">Contactos</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
-      </section>
-      
-      <section class="section" style="position: relative; padding: 0;">
-        <div class="container-fluid mt-3" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ovyfKwFx1ow?si=yMz47af-7JnJ-qs3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+    </section>
+
+    <section class="section trolls" style="position: relative; padding: 0;">
+        <div class="container-fluid mt-3"
+            style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ovyfKwFx1ow?si=yMz47af-7JnJ-qs3"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
         </div>
-      </section>
-      
-      
-    <!---->
+        <div class="conteiner-xl">
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-6">
+                    <form class="rounded-lg">
+                        <legend class="text-white fs-1 text-center"><i class="bi bi-person-fill-add"></i>Regístrate,
+                            sonríe y recibe
+                            nuestras noticias más recientes.</legend>
+                        <div class="mb-3">
+                            <label for="nombre" class="form-label"></label>
+                            <input id="nombre" type="text" class="form-control rounded-pill" placeholder="Escibe tu nombre">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="email" class="form-label"></label>
+                            <input id="email" type="email" class="form-control rounded-pill" placeholder="Escribe tu correo">
+
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="Estado"></label>
+                            <select id="estado" class="form-select rounded-pill">
+                                <option selected value="">Selecciona un estado</option>
+                                <option value="AGUASCALIENTES">Aguascalientes</option>
+                                <option value="BAJA CALIFORNIA">Baja California</option>
+                                <option value="BAJA CALIFORNIA SUR">Baja California Sur</option>
+                                <option value="CAMPECHE">Campeche</option>
+                                <option value="CHIAPAS">Chiapas</option>
+                                <option value="CHIHUAHUA">Chihuahua</option>
+                                <option value="COAHUILA">Coahuila</option>
+                                <option value="COLIMA">Colima</option>
+                                <option value="DISTRITO FEDERAL">Distrito Federal</option>
+                                <option value="DURANGO">Durango</option>
+                                <option value="GUANAJUATO">Guanajuato</option>
+                                <option value="GUERRERO">Guerrero</option>
+                                <option value="HIDALGO">Hidalgo</option>
+                                <option value="JALISCO">Jalisco</option>
+                                <option value="MEXICO">México</option>
+                                <option value="MICHOACAN">Michoacán</option>
+                                <option value="MORELOS">Morelos</option>
+                                <option value="NAYARIT">Nayarit</option>
+                                <option value="NUEVO LEON">Nuevo León</option>
+                                <option value="OAXACA">Oaxaca</option>
+                                <option value="PUEBLA">Puebla</option>
+                                <option value="QUERETARO">Querétaro</option>
+                                <option value="QUINTANA ROO">Quintana Roo</option>
+                                <option value="SAN LUIS POTOSI">San Luis Potosí</option>
+                                <option value="SINALOA">Sinaloa</option>
+                                <option value="SONORA">Sonora</option>
+                                <option value="TABASCO">Tabasco</option>
+                                <option value="TAMAULIPAS">Tamaulipas</option>
+                                <option value="TLAXCALA">Tlaxcala</option>
+                                <option value="VERACRUZ">Veracruz</option>
+                                <option value="YUCATAN">Yucatán</option>
+                                <option value="ZACATECAS">Zacatecas</option>
+                            </select>
+                        </div>
+                        <div class="text-center mb-3">
+                            <button type="submit" class="btn btn-danger rounded-pill">Registrar cliente <i
+                                    class="bi bi-plus-circle-fill"></i></button>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section>
+        <div class="container-xl mt-3">
+            <div id="indicadores" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button class="active" type="button" data-bs-target="#indicadores" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#indicadores" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#indicadores" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#indicadores" data-bs-slide-to="3"></button>
+                </div>
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="d-flex">
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <img src="img/img0.png" class="card-img-top" alt="slide 1">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-primary fs-2 text-center">Delivery</h5>
+                                        <p class="card-text fs-4">
+                                            Encuéntranos en las plataformas de delivery más populares y recibe dulces
+                                            sonrisas hasta la puerta de tu casa.
+                                        </p>
+                                        <a href="#" class="btn btn-danger float-right mt-3 rounded-pill">Leer más</a>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="card ms-3">
+                                    <img src="img/img1.png" class="card-img-top" alt="slide 2">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-primary fs-2">Café ilimitado todo el día</h5>
+                                        <p class="card-text fs-4">
+                                            La felicidad no cabe en una sola taza de café, por eso existe nuestra Never
+                                            Empty Coffee Pot® (Jarra de Café Siempre Llena).
+                                        </p>
+                                        <a href="#" class="btn btn-danger rounded-pill">Leer más</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="card mx-3">
+                                    <img src="img/img2.png" class="card-img-top" alt="slide 3">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-primary fs-1">Pankake squad</h5>
+                                        <p class="card-text fs-4">
+                                            Conoce los divertidos platillos que tenemos para los niños, con divertidas
+                                            figuras, deliciosos sabores y muchos colores que los harán sonreír.
+                                        </p>
+                                        <a href="#" class="btn btn-danger rounded-pill">Leer</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="d-flex">
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <img src="img/img3.png" class="card-img-top" alt="slide 4">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-primary fs-1">Titulo del card 4</h5>
+                                        <p class="card-text">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                            Morbi scelerisque scelerisque mauris, sed scelerisque enim semper at.
+                                            Nullam ac lectus eros. Maecenas iaculis enim nec enim ultricies,
+                                            nec faucibus quam semper.
+                                        </p>
+                                        <a href="#" class="btn btn-danger rounded-pill">Leer</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button type="button" class="carousel-control-prev btn-dark" data-bs-target="#indicadores"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon "></span>
+                </button>
+
+                <button type="button" class="carousel-control-next btn-dark" data-bs-target="#indicadores"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container-xl">
+            <div class="row">
+                <div class="col-md-12 fs-1 text-primary text-center mb-3">Explora Nuestro Menú</div>
+
+                <div class="col-md-6">
+                    <a href="#">
+                        <img src="/img/desayunos.png" alt="Ejemplo de imagen" class="img-fluid border border-dark rounded">
+                    </a>
+                </div>
+                <div class="col-md-6">
+                    <a href="#">
+                        <img src="/img/dia.png" alt="Ejemplo de imagen" class="img-fluid border border-dark rounded">
+                    </a>
+                </div>
+                <div class="col-md-6 mt-3 ">
+                    <a href="#">
+                        <img src="/img/pancakes.png" alt="Ejemplo de imagen" class="img-fluid border border-dark rounded">
+                    </a>
+                </div>
+                <div class="col-md-6 mt-3">
+                    <a href="#">
+                        <img src="/img/tarde.png" alt="Ejemplo de imagen" class="img-fluid border border-dark rounded">
+                    </a>
+                </div>
+        </div>
+
+        <div class="container-xl text-center">
+        <a href="" class="btn btn-danger mt-5 btn-center fs-2 rounded-pill">ver todo el menú</a>
+    </div>
+    </section>
+
+    <section>
+        <div class="container-xl">
+            <div class="row">
+                <div class="col-md-12 fs-1 text-primary text-center mb-3 mt-3">Únete a la conversación</div>
+                <div class="col-md-12 fs-4 text-dark text-center mb-3">CUÉNTANOS QUÉ TE HACE SONREÍR USANDO LOS HASHTAGS
+                    #IHOPsmiles #IHOPstories #SpreadingHappiness #IHOPPancakes #IHOPHotCakes</div>
+                <div class="col-md-3">
+                    <a href="#">
+                        <img src="/img/f1.png" alt="Ejemplo de imagen" class="img-fluid border border-dark rounded">
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="#">
+                        <img src="/img/f2.png" alt="Ejemplo de imagen" class="img-fluid border border-dark rounded">
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="#">
+                        <img src="/img/f3.png" alt="Ejemplo de imagen" class="img-fluid border border-dark rounded">
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="#">
+                        <img src="/img/f4.png" alt="Ejemplo de imagen" class="img-fluid border border-dark rounded">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container-fluid footer mt-5">
+            <div class="row">
+                
+                <div class="col-md-2">
+                    <a class="nav-link fs-5 text-white" href="#">Menú</a>
+                </div>
+                <div class="col-md-2">
+                    <a class="nav-link me-1 fs-5 text-white" href="#">Sucursales</a>
+                </div>
+                <div class="col-md-2">
+                    <a class="nav-link me-1 fs-5 text-white" href="#">Facturacion</a>
+                </div>
+                <div class="col-md-2">
+                    <a class="nav-link me-1 fs-5 text-white text-start" href="#">Adquiere una franquicia</a>
+                </div>
+                
+                <div class="col-md-4 fs-5 text-white text-center mb-3 mt-3">Únete a la conversación</div>
+                
+            </div>
+
+
+
+        </div>
+    </section>
+
 
 
     <script src="js/bootstrap.bundle.min.js"></script>

@@ -1,10 +1,26 @@
 a{
     font-family: 'Quicksand', sans-serif;
-    color: black;
+
 }
 
-img {
+.café{
+    height: 200px;
+}
+
+
+.img1{
     width: 100px;
     height: 100px;
   }
   
+.trolls{
+    background-color: #316db5;
+}
+
+legend{
+    font-family: 'Lilita One', sans-serif;
+}
+
+.footer{
+    background-color: #C3332A;
+}
