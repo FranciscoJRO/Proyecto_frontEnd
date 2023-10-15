@@ -43,12 +43,12 @@
 
     <section class="section trolls" style="position: relative; padding: 0;">
         <div class="container-fluid mt-3"
-            style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ovyfKwFx1ow?si=yMz47af-7JnJ-qs3"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+            style="position: relative; padding-bottom: 56.25%; overflow: visible;">
+            <img src="giphy.mp4" alt="trolls" allowfullscreen
+                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+
         </div>
+
         <div class="container-fluid">
             <div class="row d-flex justify-content-center">
                 <div class="col-md-6">
@@ -106,14 +106,23 @@
                                 <option value="YUCATAN">Yucatán</option>
                                 <option value="ZACATECAS">Zacatecas</option>
                             </select>
+                            <div class="mb-3 mt-3">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="FieldsetCheck">
+                                    <label class="form-check-label" for="FieldsetCheck">
+                                        Acepto la política de privacidad
+                                    </label>
+                                </div>
+                            </div>
                         </div>
                         <div class="text-center mb-3">
-                            <button type="submit" class="btn btn-danger rounded-pill">Registrar cliente <i
+                            <button type="submit" class="btn btn-danger rounded-pill">Suscribirme <i
                                     class="bi bi-plus-circle-fill"></i></button>
                         </div>
 
                     </form>
                 </div>
+
             </div>
         </div>
     </section>
@@ -121,95 +130,99 @@
 
     <section>
         <div class="container-xl mt-3">
-            <div id="indicadores" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                    <button class="active" type="button" data-bs-target="#indicadores" data-bs-slide-to="0"></button>
-                    <button type="button" data-bs-target="#indicadores" data-bs-slide-to="1"></button>
-                    <button type="button" data-bs-target="#indicadores" data-bs-slide-to="2"></button>
-                    <button type="button" data-bs-target="#indicadores" data-bs-slide-to="3"></button>
-                </div>
+            <div class="row">
+                <div id="indicadores" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button class="active" type="button" data-bs-target="#indicadores"
+                            data-bs-slide-to="0"></button>
+                        <button type="button" data-bs-target="#indicadores" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#indicadores" data-bs-slide-to="2"></button>
+                        <button type="button" data-bs-target="#indicadores" data-bs-slide-to="3"></button>
+                    </div>
 
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="d-flex">
-                            <div class="col-md-4">
-                                <div class="card">
-                                    <img src="img/img0.png" class="card-img-top" alt="slide 1">
-                                    <div class="card-body">
-                                        <h5 class="card-title text-primary fs-2 text-center">Delivery</h5>
-                                        <p class="card-text fs-4">
-                                            Encuéntranos en las plataformas de delivery más populares y recibe dulces
-                                            sonrisas hasta la puerta de tu casa.
-                                        </p>
-                                        <a href="#" class="btn btn-danger float-right mt-3 rounded-pill">Leer más</a>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="d-flex">
+                                <div class="col-12 col-md-6 me-3">
+                                    <div class="card">
+                                        <img src="img/img0.png" class="card-img-top" alt="slide 1">
+                                        <div class="card-body">
+                                            <h5 class="card-title text-primary fs-2 text-center">Delivery</h5>
+                                            <p class="card-text fs-4">
+                                                Encuéntranos en las plataformas de delivery más populares y recibe
+                                                dulces sonrisas hasta la puerta de tu casa.
+                                            </p>
+                                            <a href="#" class="btn btn-danger float-right mt-3 rounded-pill">Leer
+                                                más</a>
+                                        </div>
+                                    </div>
+                                </div>
 
+                                <div class="col-12 col-md-6">
+                                    <div class="card">
+                                        <img src="img/img1.png" class="card-img-top" alt="slide 2">
+                                        <div class="card-body">
+                                            <h5 class="card-title text-primary fs-2">Café ilimitado todo el día</h5>
+                                            <p class="card-text fs-4">
+                                                La felicidad no cabe en una sola taza de café, por eso existe nuestra
+                                                Never Empty Coffee Pot®.
+                                            </p>
+                                            <a href="#" class="btn btn-danger rounded-pill">Leer más</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
+                        </div>
 
-                            <div class="col-md-4">
-                                <div class="card ms-3">
-                                    <img src="img/img1.png" class="card-img-top" alt="slide 2">
-                                    <div class="card-body">
-                                        <h5 class="card-title text-primary fs-2">Café ilimitado todo el día</h5>
-                                        <p class="card-text fs-4">
-                                            La felicidad no cabe en una sola taza de café, por eso existe nuestra Never
-                                            Empty Coffee Pot® (Jarra de Café Siempre Llena).
-                                        </p>
-                                        <a href="#" class="btn btn-danger rounded-pill">Leer más</a>
+                        <div class="carousel-item">
+                            <div class="d-flex">
+                                <div class="col-12 col-md-6 me-3">
+                                    <div class="card">
+                                        <img src="img/img2.png" class="card-img-top" alt="slide 3">
+                                        <div class="card-body">
+                                            <h5 class ="card-title text-primary fs-2">Pankake squad</h5>
+                                            <p class="card-text fs-3">
+                                                Conoce los divertidos platillos que tenemos para los niños, con
+                                                divertidas figuras, deliciosos sabores y muchos colores que los harán
+                                                sonreír.
+                                            </p>
+                                            <a href="#" class="btn btn-danger rounded-pill">Leer</a>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
 
-                            <div class="col-md-4">
-                                <div class="card mx-3">
-                                    <img src="img/img2.png" class="card-img-top" alt="slide 3">
-                                    <div class="card-body">
-                                        <h5 class="card-title text-primary fs-1">Pankake squad</h5>
-                                        <p class="card-text fs-4">
-                                            Conoce los divertidos platillos que tenemos para los niños, con divertidas
-                                            figuras, deliciosos sabores y muchos colores que los harán sonreír.
-                                        </p>
-                                        <a href="#" class="btn btn-danger rounded-pill">Leer</a>
+                                <div class="col-12 col-md-6">
+                                    <div class="card">
+                                        <img src="img/img3.png" class="card-img-top" alt="slide 4">
+                                        <div class="card-body">
+                                            <h5 class ="card-title text-primary fs-2">National Panake Day</h5>
+                                            <p class="card-text fs-3">
+                                                Gracias a ti y a todos nuestros invitados, cada año hacemos sonreir a
+                                                muchisimos niños. ¡Descubre cómo lograrlo!
+                                            </p>
+                                            <a href="#" class="btn btn-danger rounded-pill">Leer</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="carousel-item">
-                        <div class="d-flex">
-                            <div class="col-md-4">
-                                <div class="card">
-                                    <img src="img/img3.png" class="card-img-top" alt="slide 4">
-                                    <div class="card-body">
-                                        <h5 class="card-title text-primary fs-1">Titulo del card 4</h5>
-                                        <p class="card-text">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                            Morbi scelerisque scelerisque mauris, sed scelerisque enim semper at.
-                                            Nullam ac lectus eros. Maecenas iaculis enim nec enim ultricies,
-                                            nec faucibus quam semper.
-                                        </p>
-                                        <a href="#" class="btn btn-danger rounded-pill">Leer</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <button type="button" class="carousel-control-prev btn-dark" data-bs-target="#indicadores"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+
+                    <button type="button" class="carousel-control-next btn-dark" data-bs-target="#indicadores"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
                 </div>
-
-                <button type="button" class="carousel-control-prev btn-dark" data-bs-target="#indicadores"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon "></span>
-                </button>
-
-                <button type="button" class="carousel-control-next btn-dark" data-bs-target="#indicadores"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon"></span>
-                </button>
             </div>
         </div>
     </section>
+
+
 
     <section>
         <div class="container-xl">
@@ -281,10 +294,10 @@
                 <div class="row">
 
                     <div class="col-md-2">
-                        <a class="nav-link fs-5 text-white" href="#">Menú</a>
+                        <a class="nav-link fs-5 text-white" href="menu.html">Menú</a>
                     </div>
                     <div class="col-md-2">
-                        <a class="nav-link me-1 fs-5 text-white" href="#">Sucursales</a>
+                        <a class="nav-link me-1 fs-5 text-white" href="sucursales.html">Sucursales</a>
                     </div>
                     <div class="col-md-2">
                         <a class="nav-link me-1 fs-5 text-white" href="#">Facturacion</a>
